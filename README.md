@@ -1,6 +1,6 @@
 ## Frontend 101
 
-Bu repository Frontend alanında belirlediğimiz en temel 10 konu için challenge 10 tane challange içermektedir.
+Bu repository Frontend alanında belirlediğimiz en temel 10 konu için 10 tane challenge içermektedir.
 
 Her bir challange içinde .md uzantılı dosyadan ilgili konuyla alakalı önerdiğimiz kaynaklara ulaşabilirsiniz.
 Bu repository'i forklayıp, kendi GitHub hesabınızda çalışabilir ve çalışmanız bittiğinde Discord sunucumuzda Frontend 101 kanalından bizlere ulaşarak **review** isteyebilirsiniz.
