@@ -1,65 +1,62 @@
-## Frontend 101
+# Frontend 101
 
-Bu repository Frontend alanında belirlediğimiz en temel 10 konu için 10 tane challenge içermektedir.
+This repository contains 10 challenges for the 10 most basic topics that we have identified in the Front-End area.
 
-Her bir challange içinde .md uzantılı dosyadan ilgili konuyla alakalı önerdiğimiz kaynaklara ulaşabilirsiniz.
-Bu repository'i forklayıp, kendi GitHub hesabınızda çalışabilir ve çalışmanız bittiğinde Discord sunucumuzda Frontend 101 kanalından bizlere ulaşarak **review** isteyebilirsiniz.
+In each challenge, you can access the resources we recommend related to the related topic from the .md extension file. You can fork this repository, work on your own GitHub account, and when you are finished working, you can contact us on our Discord server via the Frontend 101 channel and request a **review**.
 
-### Adım 1:
+### Step 1:
 
-Bu repository'i forklayın.
-Repository'nin sağ üstünde bulunan Fork butonuna bastığınızda bir kopyası sizin profilinize eklenecektir.
+Fork this repository.
+ When you click the Fork button located on the right top of the Repository, a copy of it will be added to your profile.
 
 ![Fork](https://media.discordapp.net/attachments/1023694079034392697/1036233739560292452/Screen_Shot_2022-10-30_at_14.01.18.png)
 
-### Adım 2:
+### Step 2:
 
-Çıkan yeni ekranda, copy the main branch only seçeneğinin kapalı olduğundan emin olduktan sonra **Create fork** butonuna tıklayın.
+On the new screen that appears, after making sure that the copy the main branch only option is turned off, click the **Create fork** button.
 ![Fork](https://cdn.discordapp.com/attachments/1023694079034392697/1036234578270113802/Screen_Shot_2022-10-30_at_14.05.41.png)
 
-Artık repository, sizin profilinizde aşağıdaki formatta kopyalanmış oldu.
+Now the repository has been copied in the following format on your profile.
 
-`https://github.com/[kullanıcı-adınız]/frontend-101`
+`https://github.com/[your-user-name]/frontend-101`
 
-### Adım 3:
+### Step 3:
 
-Projenin kendinizde olan kopyasını bilgisayarınıza çekmek için aşağıdaki komutları terminalde çalıştırın.
-_(Windows için Bash terminal, Mac için iTerm2 kullanabilirsiniz.)_
+To pull the copy of the project that you have on your computer, run the following commands in the terminal.
+_(You can use Bash terminal for Windows, iTerm2 for Mac.)_
 
-Not: Aşağıdaki komut çalıştırdığınız dizinde projeyi bilgisayarınıza klonlayacağı için eklemek istediğiniz dizinde olduğunuzdan emin olun.
+Note: Make sure that you are in the directory that you want to add, because the following command will clone the project to your computer in the directory where you are running it.
 
 ```bash
-  git clone https://github.com/[kullanıcı-adınız]/frontend-101
+git clone https://github.com/[your-user-name]/frontend-101
 ```
 
-**Artık çalışmaya hazırsınız.**
+**Now you are ready to work.**
 
-### Adım 4:
+### Step 4:
 
-Challenge'ları çözdükten sonra yaptığınız değişiklikleri GitHub'a geri atabilmek için proje dizininde sırasıyla çalıştırın.
-
-```bash
-  git add .
-```
+After solving the challenges, run them in the project directory in order to throw the changes you made back to GitHub.
 
 ```bash
-  git commit -m "projedeki adımlar tamamlandı"
+git add .
 ```
 
 ```bash
-  git push origin main
+git commit -m "the steps in the project are completed"
 ```
 
-### Adım 5
-
-Discord sunucumuzda Frontend 101 kanalına kendi GitHub hesabınızdaki repository'nin linkini paylaşın.
-
-```
-https://github.com/[kullanıcı-adınız]/frontend-101
-
+```bash
+git push origin main
 ```
 
-Bir topluluk üyesi ürettiğiniz kopya üzerinden bir code review ekleyecek ve düşüncelerini sizinle paylaşacak.
-Daha sonrasında anlaştığınız bir vakitte birlikte Pair Programming kanallarında challangelar hakkında fikir alışverişinde bulunabilirsiniz ve anlamadığın noktaları sorabilirsin.
+### Step 5:
+
+Share the link of the repository on your GitHub account to the Frontend 101 channel on our Discord server.
+
+```
+https://github.com/[your-user-name]/frontend-101
+```
+
+A community member will add a code review on the copy you produce and share their thoughts with you.Later, at a time you agree, you can exchange ideas about challenges on Pair Programming channels together and ask about points you don't understand.
 
 ![Logo](https://camo.githubusercontent.com/2d9ba588f573fd812658381f62e52bc54aaa780827a82b2608341fb908f08cff/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f313032353334383134313335343037343132342f313033303932373536343034303036313130382f547769747465725f42616e6e65722e706e673f77696474683d31343430266865696768743d343830)
